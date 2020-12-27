@@ -7,6 +7,15 @@
     <groupId>com.ssafaya.app</groupId>
     <artifactId>spring_practice_01</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-    
+    <modules>
+        <module>spring_in_action</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 </project>
